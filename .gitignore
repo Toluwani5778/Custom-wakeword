@@ -1,0 +1,98 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+myenv/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter / notebook artifacts
+.ipynb_checkpoints/
+*.nbconvert/
+
+# Model, weights, and trained artifacts
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+*.weights
+*.tflite
+*.pb
+*.safetensors
+
+# Audio, dataset, and feature files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.npy
+*.npz
+*.csv
+*.jsonl
+*.parquet
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+# Project-specific generated content
+notebooks/data/
+notebooks/audioset/
+notebooks/fma/
+notebooks/mit_rirs/
+notebooks/models/
+notebooks/*.npy
+notebooks/openwakeword/
+notebooks/piper_models/
+notebooks/piper-sample-generator/
+notebooks/saved_model/
+notebooks/my_custom_model/
+trained_models/
+checkpoints/
+logs/
+output/
+out/
+results/
+artifacts/
+wandb/
+mlruns/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Coverage and test reports
+.coverage
+.coverage.*
+htmlcov/
