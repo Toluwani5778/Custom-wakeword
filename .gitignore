@@ -62,9 +62,7 @@ notebooks/fma/
 notebooks/mit_rirs/
 notebooks/models/
 notebooks/*.npy
-notebooks/openwakeword/
 notebooks/piper_models/
-notebooks/piper-sample-generator/
 notebooks/saved_model/
 notebooks/my_custom_model/
 trained_models/
@@ -96,3 +94,6 @@ Thumbs.db
 .coverage
 .coverage.*
 htmlcov/
+
+#exceptions
+!notebooks/piper_models/List of English voices with 16k samp_rt.txt
